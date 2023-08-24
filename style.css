@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;;
+}
+:root {
+    --primary-color: rgb(100, 61, 184);
+    --purple-color:rgb(116, 83, 252);
+    --white-color:rgb(255, 255, 255);
+    --purple2-color:rgb(100, 66, 165);
+    --black-clor:rgb(34, 34, 42);
+    --footer-color:rgb(125, 90, 254);
+    --footer2-color:rgb(155, 84, 245);
+}
+header{
+    height: 105vh;
+    background: url(banner-bg.jpg);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+   
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+    background-color: white;
+    padding: 15px 60px;
+    border-radius: 80px;
+    margin-top: 30px;
+}
+
+.nav-links a {
+    /* margin: 0 20px; */
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 549;
+}
+.nav-links a.home {
+    background:rgb(116, 83, 252);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+.nav-links a:hover {
+    background:rgb(116, 83, 252);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 25px;
+    transition: .2s;
+    letter-spacing: 1px;
+  
+}
+.banner-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 55px;
+    width: 1170px;
+}
+.banner-info1 {
+    width: 530px;
+}
+.banner-info1 h5 {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+.banner-info1 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    color: white;
+    margin-bottom: 30px;
+}
+.banner-info1 p {
+    font-size: 14px;
+    line-height: 29px;
+    color: white;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.banner-info1 button {
+    margin-right: 10px;
+    padding: 10px 22px;
+    background: transparent;
+    border-radius: 28px;
+}
+.banner-info1 button.btn1{
+    border: 1px solid rgb(100, 61, 184);
+}
+.banner-info1 button.btn1:hover {
+    border-bottom: 2px solid white;
+    padding-bottom: 9px;
+    text-decoration: none;
+    color: white;
+}
+.banner-info1 button.btn2 {
+    border: 1px solid transparent;
+    background: rgb(116, 83, 252);
+}
+.banner-info1 button.btn2:hover {
+    background: rgb(255, 255, 255);
+}
+.banner-info1 button a {
+    border-bottom: 2px solid white;
+    padding-bottom: 9px;
+    text-decoration: none;
+    color: white;
+}
+.banner-info1 button.btn2:hover a{
+    color: rgb(116, 83, 252);
+}
+.banner-info2 {
+    height: 350px;
+}
+.banner-info2 img {
+    height: 100%;
+}
+.section1 {
+    height: 1400px;
+    width: 100%;
+    background: rgb(34, 34, 42);
+}
+.sect1 {
+    height: 100%;
+    width: 100%;
+}
+.browse {
+    width: 100%;
+   padding: 110px 0;
+}
+.line-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 30px;
+}
+.browse .line {
+    width: 110px;
+    height: 2px;
+    background-color:rgb(116, 83, 252);
+   
+}
+.browse h2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 30px;
+    color: white;
+
+
+}
+span {
+    color:rgb(116, 83, 252) ;
+    padding: 0 9px;
+}
+.categories {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    padding-left: 55px;
+    margin-bottom: 150px;
+   
+   
+}
+.block-chain {
+    height: 170px;
+    width: 170px;
+    background-color:rgb(40, 43, 47);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    border: 1px solid rgb(106, 102, 102);
+}
+.block-chain img {
+    background: white;
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    /* height: 30px; */
+}
+.block-chain p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.virtual-word {
+    height: 200px;
+    width: 170px;
+    background-color:rgb(40, 43, 47);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    border: 1px solid rgb(106, 102, 102);
+}
+.virtual-word img {
+    background: white;
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.virtual-word p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.explore {
+    width: 100%;
+    margin-bottom: 80px;
+}
+.explore .line {
+    width: 110px;
+    height: 2px;
+    background-color:rgb(116, 83, 252);
+}
+.explore h2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 30px;
+    color: white;
+}
+.collection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    gap: 30px;
+    margin-left: 60px;
+}
+.collections1 {
+    width: 330px;
+    height: 500px;
+    /* background: white; */
+   
+}
+.collection-img {
+    width: 330px;
+    height: 250px;
+    /* background: white; */
+  
+}
+.collection-img img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.genesis {
+    width: 330px;
+    height: 200px;
+    border: 1px solid rgb(106, 102, 102);
+    padding: 0 35px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+}
+.club {
+    margin: 20px 0;
+    /* text-align: center; */
+    border-bottom: 1px solid rgb(106, 102, 102);
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.items-collection {
+    display: flex;
+    justify-content: space-between;
+}
+.items-in-collection p {
+    color: white;
+    margin-bottom: 5px;
+}
+.items-in-collection h2 {
+    color: white;
+}
+.category p {
+    color: white;
+    margin-bottom: 5px;
+    float: right;
+}
+.category h2 {
+    color: white;
+}
+.explore2 {
+    /* margin-right: 10px; */
+    /* padding: 15px 20px; */
+    border-radius: 28px;
+    width: 280px;
+    border: 1px solid transparent;
+    background:rgb(116, 83, 252);
+    position: relative;
+    top: 180px;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .explore2 a::after {
+    content: '';
+    border-bottom: 1px solid red;
+    width: 100%;
+    display: block;
+    padding-bottom: px ;
+} */
+.explore2 a {
+    border-bottom: 2px solid white; 
+    padding: 14px 20px;
+    text-decoration: none; 
+    color: white; 
+    display: block;
+    width: 200px;
+    text-align: center;
+}
